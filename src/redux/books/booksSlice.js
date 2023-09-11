@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 const KEY = 'cuqdmktbp1cb';
-const API_URI = 'https://api.ebird.org/v2/data/obs/KZ/recent';
+const API_URI = `https://api.ebird.org/v2/data/obs/KZ/recent/${KEY}`;
 
 const initialState = {
   books: [],
