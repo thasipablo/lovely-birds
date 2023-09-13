@@ -1,4 +1,2 @@
-export { default as BookComponent } from './BookComponent';
-export { default as BookFormComponent } from './BookFormComponent';
-export { default as BookListComponent } from './BookListComponent';
-export { default as NavigationComponent } from './NavigationComponent';
+export { default as BirdsSpeciesList } from './BirdsSpeciesList';
+export { default as BirdSpeccy } from './BirdSpeccy';
