@@ -12,7 +12,7 @@ const BirdSpeccy = ({ speccy }) => (
 BirdSpeccy.propTypes = {
   speccy: PropTypes.shape({
     comName: PropTypes.string.isRequired,
-    howMany: PropTypes.number.isRequired,
+    howMany: PropTypes.number,
   }).isRequired,
 };
 

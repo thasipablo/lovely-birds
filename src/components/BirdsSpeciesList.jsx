@@ -15,7 +15,7 @@ const BirdsSpeciesList = () => {
   return (
     <div>
       {birdsStore.birds.map((speccy) => (
-        <Link to="/" key={speccy.speciesCode}>
+        <Link to={`/details/${speccy.speciesCode}`} key={speccy.speciesCode}>
           <BirdSpeccy speccy={speccy} />
         </Link>
       ))}
