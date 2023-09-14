@@ -16,8 +16,13 @@ const DetailsPage = () => {
 
   return (
     <div>
-      <h1>Bird Details Page</h1>
-      {speccy && <div>{speccy.comName}</div>}
+      {speccy && (
+        <div>
+          <h1>{speccy.comName}</h1>
+          <div>Account: {speccy.howMany}</div>
+          <div>Location: {speccy.locName}</div>
+        </div>
+      )}
     </div>
   );
 };
