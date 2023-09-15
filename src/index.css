@@ -34,6 +34,24 @@ input {
   outline: none;
 }
 
+.navigation {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #156764e8;
+}
+
+.navigation svg {
+  width: 20px;
+  height: 20px;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+}
+
 .banner {
   position: relative;
   display: flex;
@@ -97,7 +115,7 @@ input {
 
 .arrow {
   width: 20px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .light {
@@ -112,4 +130,34 @@ input {
 
 .speccy-title {
   font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+.details-props li {
+  padding: 1rem 0;
+}
+
+.details-props:nth-child(odd) {
+  background-color: #156764be;
+}
+
+.details-page {
+  color: #fff;
+  background-color: #1e8380be;
+  min-height: 100vh;
+}
+
+.details-title {
+  margin: 0;
+  font-size: 2.3rem;
+  padding: 5rem 2rem;
+}
+
+.details-props {
+  padding: 0 2rem;
+}
+
+.prop {
+  font-weight: bold;
+  font-size: 1.7rem;
 }
