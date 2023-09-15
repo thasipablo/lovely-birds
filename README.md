@@ -56,7 +56,7 @@
 
 Presentation [video](https://www.loom.com/share/fd2bba6c2fdd4d889c8eb27edaf7142d?sid=59fb050c-b999-47af-b06d-a5dde4792d95)
 
-Checkout the live version clicking on this [link](https://github.com/)
+Checkout the live version clicking on this [link](https://lovelybirds.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
