@@ -29,6 +29,11 @@ p {
   margin: 0;
 }
 
+input {
+  border: none;
+  outline: none;
+}
+
 .banner {
   display: flex;
   flex-direction: column;
@@ -46,6 +51,23 @@ p {
 .banner-title {
   font-size: 3.5rem;
   margin: 0;
+}
+
+.search-field {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  margin-top: 1rem;
+  background-color: #ffffff63;
+}
+
+.search-field::placeholder {
+  color: #fff;
+}
+
+.search-field:focus {
+  outline: 1px solid #fff;
 }
 
 .home-container {
