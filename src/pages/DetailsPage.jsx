@@ -19,8 +19,14 @@ const DetailsPage = () => {
       {speccy && (
         <div>
           <h1>{speccy.comName}</h1>
-          <div>Account: {speccy.howMany}</div>
-          <div>Location: {speccy.locName}</div>
+          <div>
+            Account:
+            {speccy.howMany}
+          </div>
+          <div>
+            Location:
+            {speccy.locName}
+          </div>
         </div>
       )}
     </div>
