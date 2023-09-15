@@ -8,7 +8,6 @@ const DetailsPage = () => {
   const dispatch = useDispatch();
   const birdSpecies = useSelector((state) => state.bird.birds);
   const speccy = birdSpecies.find((b) => b.speciesCode === id);
-  console.log(speccy);
 
   useEffect(() => {
     dispatch(fetchBirds());

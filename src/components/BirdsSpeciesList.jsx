@@ -47,8 +47,8 @@ const BirdsSpeciesList = () => {
         <div className="year">2023</div>
         <h2 className="banner-title">Birds Speccies</h2>
         <div>
-          <span>Total:</span>
-          <span>{birdsStore.birds?.length}</span>
+          <span>Total: </span>
+          <span>{birds?.length}</span>
         </div>
         <input
           type="text"
