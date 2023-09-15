@@ -34,6 +34,10 @@ input {
   outline: none;
 }
 
+img {
+  width: 100%;
+}
+
 .navigation {
   color: #fff;
   display: flex;
@@ -137,14 +141,10 @@ input {
   padding: 1rem 0;
 }
 
-.details-props:nth-child(odd) {
-  background-color: #156764be;
-}
-
 .details-page {
   color: #fff;
   background-color: #1e8380be;
-  min-height: 100vh;
+  min-height: calc(100vh - 56px);
 }
 
 .details-title {
