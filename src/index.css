@@ -35,12 +35,21 @@ input {
 }
 
 .banner {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: end;
   padding: 2rem;
   color: #fff;
   background-color: #259a96;
+}
+
+.birds {
+  position: fixed;
+  left: 2rem;
+  top: 2rem;
+  opacity: 0.2;
+  z-index: 1;
 }
 
 .year {
@@ -60,6 +69,7 @@ input {
   color: #fff;
   margin-top: 1rem;
   background-color: #ffffff63;
+  z-index: 99;
 }
 
 .search-field::placeholder {
@@ -74,6 +84,8 @@ input {
   display: grid;
   text-align: right;
   grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  z-index: 99;
 }
 
 .speccy-card {
@@ -90,16 +102,13 @@ input {
 
 .light {
   color: #fff;
-  background-color: #1e8380;
+  background-color: #1e8380be;
 }
 
 .dark {
   color: #fff;
-  background-color: #156764;
+  background-color: #156764be;
 }
-
-/* .speccy-card {
-} */
 
 .speccy-title {
   font-weight: normal;

@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { fetchBirds } from '../redux/books/birdsSlice';
 import BirdSpeccy from './BirdSpeccy';
+import birdsIllus from '../assets/birds.png';
 
 const BirdsSpeciesList = () => {
   const dispatch = useDispatch();
@@ -44,6 +45,9 @@ const BirdsSpeciesList = () => {
   return (
     <>
       <div className="banner">
+        <div className="birds">
+          <img src={birdsIllus} alt="birds illustrations" />
+        </div>
         <div className="year">2023</div>
         <h2 className="banner-title">Birds Speccies</h2>
         <div>
