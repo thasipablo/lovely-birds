@@ -23,9 +23,9 @@
 
 **Lovely Birds** is a website for all fans of birds. It is a Single Page App (SPA) that allows users to:
 
-- Display a list of birds
-- Filter birds
-- Display details of a bird
+- Display a list of birds species
+- Filter birds species using search keyword
+- Display details of a bird speccy
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -54,7 +54,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-The live version is not yet available.
+Presentation [video](https://www.loom.com/share/fd2bba6c2fdd4d889c8eb27edaf7142d?sid=59fb050c-b999-47af-b06d-a5dde4792d95)
+
+Checkout the live version clicking on this [link](https://github.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +95,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```
-  npm start
+  npm run start
 ```
 
 ### Run tests
