@@ -3,9 +3,68 @@
 }
 
 body {
+  margin: 0;
   scroll-behavior: smooth;
+  font-family: sans-serif;
+  font-weight: normal;
 }
 
 a {
   color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* .app {
+  width: 80%;
+  margin: 0 auto;
+} */
+
+.home-container {
+  display: grid;
+  text-align: right;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.speccy-card {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 2rem;
+}
+
+.arrow {
+  width: 20px;
+  margin-bottom: 2rem;
+}
+
+.light {
+  color: #fff;
+  background-color: #1e8380;
+}
+
+.dark {
+  color: #fff;
+  background-color: #156764;
+}
+
+/* .speccy-card {
+} */
+
+.speccy-title {
+  font-weight: normal;
 }

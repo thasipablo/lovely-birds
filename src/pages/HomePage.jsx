@@ -1,6 +1,10 @@
 import React from 'react';
 import { BirdsSpeciesList } from '../components';
 
-const HomePage = () => <BirdsSpeciesList />;
+const HomePage = () => (
+  <div className="app">
+    <BirdsSpeciesList />
+  </div>
+);
 
 export default HomePage;

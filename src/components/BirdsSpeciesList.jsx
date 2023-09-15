@@ -12,14 +12,39 @@ const BirdsSpeciesList = () => {
     dispatch(fetchBirds());
   }, [dispatch]);
 
+  const colors = ['light', 'dark'];
+  let ops = 'increment';
+  let round = 0;
+  const darkOrLight = () => {
+    let color = '';
+    if (ops === 'increment') {
+      color = colors[round];
+      round += 1;
+      if (round > 1) {
+        round = 1;
+        ops = 'decrement';
+      }
+    } else {
+      color = colors[round];
+      round -= 1;
+      if (round < 0) {
+        round = 0;
+        ops = 'increment';
+      }
+    }
+    return color;
+  };
+
   return (
-    <div>
+    <ul className="home-container">
       {birdsStore.birds.map((speccy) => (
-        <Link to={`/details/${speccy.speciesCode}`} key={speccy.speciesCode}>
-          <BirdSpeccy speccy={speccy} />
-        </Link>
+        <li key={speccy.speciesCode} className={darkOrLight() ?? ''}>
+          <Link to={`/details/${speccy.speciesCode}`}>
+            <BirdSpeccy speccy={speccy} />
+          </Link>
+        </li>
       ))}
-    </div>
+    </ul>
   );
 };
 
