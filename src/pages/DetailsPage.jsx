@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router';
-import { fetchBirds } from '../redux/books/birdsSlice';
+import { fetchBirds } from '../redux/birds/birdsSlice';
 import birdsIllus from '../assets/birds.png';
 import Navigation from '../components/Navigation';
 

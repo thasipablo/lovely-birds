@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { birdsSlice } from './books/birdsSlice';
+import { birdsSlice } from './birds/birdsSlice';
 
 const store = configureStore({
   reducer: {
