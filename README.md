@@ -17,6 +17,7 @@
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 Credit ](#-credit-)
   - [📝 License ](#-license-)
 
 # 📖 About the project <a name="about-project"></a>
@@ -56,7 +57,7 @@
 
 Presentation [video](https://www.loom.com/share/fd2bba6c2fdd4d889c8eb27edaf7142d?sid=59fb050c-b999-47af-b06d-a5dde4792d95)
 
-Checkout the live version clicking on this [link](https://github.com/)
+Checkout the live version clicking on this [link](https://lovelybirds.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,6 +142,12 @@ If you like this project you can give me a good rating or leave a nice comment, 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 Thanks to all Microverse community and thank you for taking the time to stop by!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 Credit <a name="credit"></a>
+
+Original design idea by [Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

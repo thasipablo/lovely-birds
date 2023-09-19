@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { fetchBirds } from '../redux/books/birdsSlice';
+import { fetchBirds } from '../redux/birds/birdsSlice';
 import BirdSpeccy from './BirdSpeccy';
 import birdsIllus from '../assets/birds.png';
 
